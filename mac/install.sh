@@ -9,3 +9,7 @@ brew install docker
 brew install snyk
 brew install python@3.9
 brew install node-build
+
+brew update
+brew upgrade
+brew cleanup
