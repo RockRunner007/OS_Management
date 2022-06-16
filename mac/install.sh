@@ -1,9 +1,20 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/{profile}/.zprofile
 
+brew tap snyk/tap
+sudo softwareupdate --install-rosetta
+
 brew list
-brew install autoconf
+
 brew install ccleaner
+brew install firefox
+brew install google-drive
+brew install google-chrome
+brew install microsoft-edge
+brew install visual-studio-code
+brew install slack
+
+brew install autoconf
 brew install coreutils
 brew install dos2unix
 brew install git
