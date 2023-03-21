@@ -13,6 +13,9 @@ brew install google-chrome
 brew install microsoft-edge
 brew install visual-studio-code
 brew install slack
+brew install postman
+brew install drawio
+brew install zoom
 
 brew install autoconf
 brew install coreutils
@@ -29,6 +32,7 @@ brew install snyk
 brew install terraform
 brew install terraform-docs
 brew install wimlib
+brew install wget
 
 brew update
 brew upgrade
