@@ -17,17 +17,13 @@ brew install postman
 brew install drawio
 brew install zoom
 
-brew install autoconf
-brew install coreutils
-brew install dos2unix
 brew install git
-brew install go
 brew install docker
 brew install jq
 brew install node
 brew install node-build
 brew install openssl
-brew install python@3.10
+brew install python
 brew install snyk
 brew install terraform
 brew install terraform-docs
