@@ -23,6 +23,7 @@ brew install google-chrome
 brew install microsoft-edge
 brew install postman
 brew install slack
+brew install --cask spotify
 brew install visual-studio-code
 brew install zoom
 
