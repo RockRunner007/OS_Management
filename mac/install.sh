@@ -18,7 +18,7 @@ brew install drawio
 brew install zoom
 
 brew install git
-brew install docker
+brew install --cask docker
 brew install jq
 brew install node
 brew install node-build
