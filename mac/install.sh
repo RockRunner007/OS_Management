@@ -17,6 +17,7 @@ brew install --cask nordvpn
 # General Tools
 brew install ccleaner
 brew install drawio
+brew install --cask discord
 brew install firefox
 brew install google-drive
 brew install google-chrome
