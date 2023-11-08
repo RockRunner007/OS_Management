@@ -16,6 +16,7 @@ brew install --cask nordvpn
 
 # General Tools
 brew install --cask 1password
+brew install 1password-cli
 brew install ccleaner
 brew install drawio
 brew install --cask discord
