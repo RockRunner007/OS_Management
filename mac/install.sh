@@ -32,6 +32,7 @@ brew install zoom
 
 # Development Specific Tools
 brew install git
+brew install gh
 brew install --cask github
 brew install --cask docker
 brew install jq
