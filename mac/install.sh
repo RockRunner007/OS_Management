@@ -40,6 +40,7 @@ brew install node
 brew install node-build
 brew install openssl
 brew install python
+brew install poetry
 brew install snyk
 brew install terraform
 brew install terraform-docs
