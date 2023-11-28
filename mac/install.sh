@@ -47,6 +47,10 @@ brew install terraform-docs
 brew install wimlib
 brew install wget
 
+# Ops Specific Tools
+brew install --cask google-cloud-sdk
+brew install awscli
+
 # Upgrade and cleanup
 brew upgrade
 brew cleanup
