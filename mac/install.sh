@@ -7,6 +7,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Third-Party Repositories
 # brew tap snyk/tap
+brew tap hashicorp/tap
 
 # CPU setup (Rosetta for Apple Silicon)
 sudo softwareupdate --install-rosetta --agree-to-license
@@ -45,14 +46,23 @@ brew install openssl
 brew install python
 # brew install poetry
 # brew install snyk
-brew install terraform
+brew install hashicorp/tap/terraform
 brew install terraform-docs
 brew install wimlib
 brew install wget
+# brew install bazel
+# brew install bazelisk
+# brew install java
+brew install zsh
 
 # Ops Specific Tools
 # brew install --cask google-cloud-sdk
 # brew install awscli
+
+# terminal
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/powerline/fonts
+cd fonts && ./install.sh
 
 # Upgrade and cleanup
 brew upgrade
