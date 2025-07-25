@@ -48,6 +48,7 @@ brew install python
 # brew install snyk
 brew install hashicorp/tap/terraform
 brew install terraform-docs
+brew install opentofu
 brew install wimlib
 brew install wget
 # brew install bazel
@@ -57,7 +58,10 @@ brew install zsh
 
 # Ops Specific Tools
 # brew install --cask google-cloud-sdk
-# brew install awscli
+brew install awscli
+brew install awscurl
+# brew install aws-sam-cli
+brew install snowflake-cli
 
 # terminal
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
